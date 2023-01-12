@@ -1,0 +1,29 @@
+.card-group{
+    display: flex;
+    gap: 2rem;
+   
+    border-color: brown;
+    border-style: dashed;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    
+}
+.card{
+    border-color: black;
+    border-style: groove;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    flex-basis: 30%;
+}
+.card-title{
+    border: 1px;
+    border-color: lightblue;
+    border-style: groove;
+}
+.card-img-top{
+    width: 200px;
+    flex: 1;
+}    
