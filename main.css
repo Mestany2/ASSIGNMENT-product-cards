@@ -27,3 +27,12 @@
     width: 200px;
     flex: 1;
 }    
+.title{
+    display: block;
+}
+.status{
+    border-style: groove;
+    border-color:black;
+    background-color: green;
+    display: block;
+}
