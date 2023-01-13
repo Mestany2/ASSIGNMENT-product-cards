@@ -55,5 +55,6 @@
 .Sold-out{
     position: absolute;
     width: 50%;
-    top: 0;
+    top: 50px;
+    right: 80px;
     }
