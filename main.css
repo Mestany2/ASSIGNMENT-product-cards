@@ -7,7 +7,7 @@
     gap: 2rem;
     flex-wrap: wrap;
     /* width: 1020px; */
-    /* height: 1300px; */
+    /* height: 1400px; */
     justify-content: center;
         
 }
@@ -57,7 +57,7 @@ backdrop-filter: blur(7px); background-color: rgba(255, 255, 255, 1); border-rad
 }
 .Sold-out{
     position: absolute;
-    width: 50%;
+    width: 75%;
     top: 50px;
-    right: 80px;
+    right: 10%;
     }
