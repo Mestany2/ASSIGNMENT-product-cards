@@ -5,10 +5,9 @@
 .card-group{
     display: flex;
     gap: 2rem;
-    /* border-color: brown; */
-    /* border-style: dashed; */
     flex-wrap: wrap;
-    width: 1000px;
+    width: 1020px;
+    height: 1300px;
     justify-content: center;
     
 }
@@ -16,18 +15,23 @@
     position: relative;
     border-color: black;
     border-style: groove;
-    /* display: flex; */
     flex-wrap: wrap;
     flex-direction: row;
-    /* text-align: center; */
     flex-basis: 30%;
-    
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9.5px );
+-webkit-backdrop-filter: blur( 9.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+backdrop-filter: blur(7px); background-color: rgba(255, 255, 255, 1); border-radius: 38px; box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -7px -7px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
 }
 .card-title{
     border: 1px;
     border-color: lightblue;
     border-style: groove;
     text-align: center;
+    font-family: 'Rowdies', cursive;
 }
 .card-img-top{
     position:relative;
@@ -35,8 +39,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* flex: 1; */
-    
 }    
 .title{
     display: block;
@@ -48,6 +50,7 @@
     display: flex;
     color: yellow;
     border-right: 10px;
+    
 }
 .specific{
     font-weight: bold;
