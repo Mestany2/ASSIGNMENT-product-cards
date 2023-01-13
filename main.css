@@ -1,0 +1,63 @@
+.store{
+    font-size: xx-large;
+    font-style: italic;
+}
+.card-group{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* width: 1020px; */
+    /* height: 1400px; */
+    justify-content: center;
+        
+}
+.card{
+    position: relative;
+    border-color: black;
+    border-style: groove;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    flex-basis: 30%;
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9.5px );
+-webkit-backdrop-filter: blur( 9.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+backdrop-filter: blur(7px); background-color: rgba(255, 255, 255, 1); border-radius: 1px; box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -7px -7px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+.card-title{
+    border: 1px;
+    border-color: lightblue;
+    border-style: groove;
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+}
+.card-img-top{
+    position:relative;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}    
+.title{
+    display: block;
+}
+.status{
+    border-style: groove;
+    border-color:black;
+    background-color: gray;
+    display: flex;
+    color: yellow;
+    border-right: 10px;
+    
+}
+.specific{
+    font-weight: bold;
+}
+.Sold-out{
+    position: absolute;
+    width: 75%;
+    top: 50px;
+    right: 10%;
+    }
