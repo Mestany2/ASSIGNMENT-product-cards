@@ -6,17 +6,17 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-    width: 1020px;
-    height: 1300px;
+    /* width: 1020px; */
+    /* height: 1300px; */
     justify-content: center;
-    
+        
 }
 .card{
     position: relative;
     border-color: black;
     border-style: groove;
     flex-wrap: wrap;
-    flex-direction: row;
+    /* flex-direction: column; */
     flex-basis: 30%;
     background: rgba( 255, 255, 255, 0.2 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
