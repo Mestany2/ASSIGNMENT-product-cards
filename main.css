@@ -1,14 +1,19 @@
+.store{
+    font-size: xx-large;
+    font-style: italic;
+}
 .card-group{
     display: flex;
     gap: 2rem;
-    border-color: brown;
-    border-style: dashed;
+    /* border-color: brown; */
+    /* border-style: dashed; */
     flex-wrap: wrap;
     width: 1000px;
     justify-content: center;
     
 }
 .card{
+    position: relative;
     border-color: black;
     border-style: groove;
     /* display: flex; */
@@ -25,11 +30,12 @@
     text-align: center;
 }
 .card-img-top{
+    position:relative;
     width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    flex: 1;
+    /* flex: 1; */
     
 }    
 .title{
@@ -40,10 +46,14 @@
     border-color:black;
     background-color: gray;
     display: flex;
-    flex-grow:;
     color: yellow;
     border-right: 10px;
 }
 .specific{
     font-weight: bold;
 }
+.Sold-out{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    }
