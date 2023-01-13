@@ -24,7 +24,7 @@ backdrop-filter: blur( 9.5px );
 -webkit-backdrop-filter: blur( 9.5px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-backdrop-filter: blur(7px); background-color: rgba(255, 255, 255, 1); border-radius: 38px; box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -7px -7px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+backdrop-filter: blur(7px); background-color: rgba(255, 255, 255, 1); border-radius: 1px; box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -7px -7px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
 }
 .card-title{
     border: 1px;
