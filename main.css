@@ -1,7 +1,6 @@
 .card-group{
     display: flex;
     gap: 2rem;
-   
     border-color: brown;
     border-style: dashed;
     flex-wrap: wrap;
@@ -12,20 +11,26 @@
 .card{
     border-color: black;
     border-style: groove;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     flex-direction: row;
-    text-align: center;
+    /* text-align: center; */
     flex-basis: 30%;
+    
 }
 .card-title{
     border: 1px;
     border-color: lightblue;
     border-style: groove;
+    text-align: center;
 }
 .card-img-top{
     width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     flex: 1;
+    
 }    
 .title{
     display: block;
@@ -33,6 +38,12 @@
 .status{
     border-style: groove;
     border-color:black;
-    background-color: green;
-    display: block;
+    background-color: gray;
+    display: flex;
+    flex-grow:;
+    color: yellow;
+    border-right: 10px;
+}
+.specific{
+    font-weight: bold;
 }
